@@ -1,0 +1,7 @@
+python >= 3.9
+pytorch
+transformers
+scikit-learn
+pandas
+numpy
+openpyxl
