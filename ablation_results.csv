@@ -1,0 +1,5 @@
+variant,acc,macro,best_epoch
+ASTRA-TRI (orig+chg+diff; gated),0.36666666666666664,0.35175969503855886,5
+XLM-RoBERTa (diff only),0.38,0.3506995019184215,4
+XLM-RoBERTa (chg only),0.33,0.3261798441401664,5
+XLM-RoBERTa (orig + chg concat),0.11,0.022022022022022022,1

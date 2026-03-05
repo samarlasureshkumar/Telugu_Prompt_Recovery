@@ -1,0 +1,39 @@
+{
+  "config": {
+    "MODEL_NAME": "xlm-roberta-base",
+    "MAX_LEN": 256,
+    "BATCH": 16,
+    "EPOCHS": 5,
+    "LR": 2e-05,
+    "WD": 0.01,
+    "WARMUP": 0.1,
+    "SEED": 42
+  },
+  "results": [
+    {
+      "variant": "XLM-RoBERTa (chg only)",
+      "acc": 0.33,
+      "macro": 0.3261798441401664,
+      "best_epoch": 5
+    },
+    {
+      "variant": "XLM-RoBERTa (orig + chg concat)",
+      "acc": 0.11,
+      "macro": 0.022022022022022022,
+      "best_epoch": 1
+    },
+    {
+      "variant": "XLM-RoBERTa (diff only)",
+      "acc": 0.38,
+      "macro": 0.3506995019184215,
+      "best_epoch": 4
+    },
+    {
+      "variant": "ASTRA-TRI (orig+chg+diff; gated)",
+      "acc": 0.36666666666666664,
+      "macro": 0.35175969503855886,
+      "best_epoch": 5
+    }
+  ],
+  "elapsed_sec": 1107.7151141166687
+}

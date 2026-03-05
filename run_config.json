@@ -1,0 +1,29 @@
+{
+  "MODEL_NAME": "xlm-roberta-base",
+  "MAX_LEN": 256,
+  "BATCH": 16,
+  "EPOCHS": 5,
+  "LR": 2e-05,
+  "WD": 0.01,
+  "WARMUP": 0.1,
+  "SEED": 42,
+  "STYLE_LABELS": [
+    "Formal",
+    "Informal",
+    "Optimistic",
+    "Pessimistic",
+    "Humorous",
+    "Serious",
+    "Inspiring",
+    "Authoritative",
+    "Persuasive"
+  ],
+  "TRAIN_XLSX": "/content/drive/MyDrive/Telugu/PR_train.xlsx",
+  "VAL_XLSX": "/content/drive/MyDrive/Telugu/PR_validation.xlsx",
+  "TEST_XLSX": "/content/drive/MyDrive/Telugu/PR_test.xlsx",
+  "TEST_LABELS_XLSX": "/content/drive/MyDrive/Telugu/PR_test_labels.xlsx",
+  "SAVE_DIR": "/content/drive/MyDrive/Telugu/ASTRA_TRI",
+  "BEST_CKPT_PATH": "/content/drive/MyDrive/Telugu/ASTRA_TRI/astra_tri_best.pt",
+  "OUT_SUBMISSION_CSV": "/content/drive/MyDrive/Telugu/submission.csv",
+  "timestamp": "2026-03-04 00:34:52"
+}
